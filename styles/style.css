@@ -6,6 +6,13 @@
 
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif; */
+.section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
 /* header */
 header {
     background-image: url(../images/banner/banner3.png);
@@ -58,20 +65,46 @@ main {
     margin-bottom: 130px;
 }
 
-.pev-year-title {
-    color: #151414;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 25px;
-}
-
 .pev-year-subtitle {
     color: #444343;
     margin-bottom: 15px;
 }
-.pev-year-grouph p{
+
+.pev-year-grouph p {
     margin-bottom: 8px;
 }
-.pev-year-grouph p i{
+
+.pev-year-grouph p i {
     padding-right: 3px;
+}
+
+/* plans */
+.plans {
+    margin-bottom: 130px;
+}
+
+.plans .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 85px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.plan-item {
+    text-align: center;
+}
+
+.plans-text {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
 }
