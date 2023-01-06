@@ -44,4 +44,34 @@ header {
     border: none;
 }
 
+/* main */
+main {
+    width: 70%;
+    margin: 0 auto;
+}
 
+/* pev-year section */
+.pev-year {
+    display: flex;
+    align-items: center;
+    gap: 85px;
+    margin-bottom: 130px;
+}
+
+.pev-year-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.pev-year-subtitle {
+    color: #444343;
+    margin-bottom: 15px;
+}
+.pev-year-grouph p{
+    margin-bottom: 8px;
+}
+.pev-year-grouph p i{
+    padding-right: 3px;
+}
