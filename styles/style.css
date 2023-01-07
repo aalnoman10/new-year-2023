@@ -94,17 +94,40 @@ main {
     gap: 85px;
 }
 
+.plan-item {
+    text-align: center;
+}
+
+.plan-item img {
+    margin-bottom: 20px;
+}
+
 .plan-title {
     font-weight: 700;
     font-size: 27px;
-}
-
-.plan-item {
-    text-align: center;
+    margin-bottom: 20px;
 }
 
 .plans-text {
     font-weight: 500;
     font-size: 25px;
     color: #737272;
+}
+
+/* mindset */
+.maidset {
+    background-image: linear-gradient(to right, rgb(0, 95, 172), rgba(0, 221, 255, 0.001)), url(../images/watch.png);
+    background-position: 100% 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 130px;
+    padding: 60px;
+}
+
+.maidset-info {
+    width: 480px;
+}
+
+.maidset-info .section-title {
+    color: #ffffff;
 }
