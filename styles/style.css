@@ -44,7 +44,7 @@ header {
 }
 
 .pry-btn {
-    padding: 10px;
+    padding: 15px;
     color: #005FAC;
     font-size: 20px;
     border-radius: 5px;
@@ -99,13 +99,13 @@ main {
 }
 
 .plan-item img {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .plan-title {
     font-weight: 700;
     font-size: 27px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .plans-text {
@@ -115,7 +115,7 @@ main {
 }
 
 /* mindset */
-.maidset {
+.mindset {
     background-image: linear-gradient(to right, rgb(0, 95, 172), rgba(0, 221, 255, 0.001)), url(../images/watch.png);
     background-position: 100% 100%;
     display: flex;
@@ -124,10 +124,63 @@ main {
     padding: 60px;
 }
 
-.maidset-info {
+.mindset-info {
     width: 480px;
 }
 
-.maidset-info .section-title {
+.mindset-info .section-title {
+    color: #ffffff;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #151414;
+    color: #ffffff;
+    padding: 130px 15%;
+}
+
+footer h3 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.future {
+    width: 480px;
+}
+
+.future p {
+    margin-bottom: 16px;
+}
+
+.social-icon img {
+    margin-top: 16px;
+    margin-right: 10px;
+}
+
+form {
+    width: 250px;
+}
+
+form h3 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+}
+
+.pry-btn.inp {
+    background-color: #005FAC;
     color: #ffffff;
 }
